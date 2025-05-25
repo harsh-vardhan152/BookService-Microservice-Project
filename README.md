@@ -37,9 +37,9 @@ A BookStore application built using Spring Boot, Spring Cloud, and Docker.
 - Job Scheduling with ShedLock-based distributed Locking
 - Using RestClient, Declarative HTTP Interfaces to invoke other APIs
 - Creating Aggregated Swagger Documentation at API Gateway
-- Local Development Setup using Docker, Docker Compose and Testcontainers
-- Testing using JUnit 5, RestAssured, Testcontainers, Awaitility, WireMock
-- Building Web Application using Thymeleaf, Alpine.js, Bootstrap
+- Local Development Setup using Docker, Docker Compose, and Testcontainers
+- Testing using JUnit 5, RestAssured, Testcontainers, Availability, WireMock
+- Building a Web Application using Thymeleaf, Alpine.js, Bootstrap
 - Monitoring & Observability using Grafana, Prometheus, Loki, Tempo
 
 ## Local Development Setup
