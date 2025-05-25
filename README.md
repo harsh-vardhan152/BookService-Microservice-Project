@@ -45,6 +45,6 @@ A BookStore application built using Spring Boot, Spring Cloud, and Docker.
 ## Local Development Setup
 
 1. Install Java 21 (recommended to use SDKMAN for managing Java versions)
-2. Install Docker Desktop
-3. Install IntelliJ IDEA or your preferred IDE
-4. Install Postman or any REST Client
+2. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+3. Install [IntelliJ IDEA](https://www.jetbrains.com/idea/) or your preferred IDE
+4. Install [Postman](https://www.postman.com/) or any REST Client
