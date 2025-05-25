@@ -4,6 +4,8 @@ A BookStore application built using Spring Boot, Spring Cloud, and Docker.
 
 ## BookStore Microservices Architecture
 
+/docs/architecture.png
+
 ### Modules
 
 #### Catalog Service
