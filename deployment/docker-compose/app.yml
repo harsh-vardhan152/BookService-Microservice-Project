@@ -1,0 +1,20 @@
+name: 'bookstore-store-microservices-project'
+services:
+  catalog-service:
+    image: harshvardhan/bookstore-catalog-service:latest
+    container_name: catalog-service
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+      - POSTGRES_URL=jdbc:postgresql://catalog-db:5432/catalog-service
+      - POSTGRES_USERNAME=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "8081:8081"
+    restart: unless-stopped
+    depends_on:
+      catalog-db:
+        condition: service_healthy
+    deploy:
+      resources:
+        limits:
+          memory: 700m

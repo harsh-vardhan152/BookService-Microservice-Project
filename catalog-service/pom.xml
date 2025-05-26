@@ -28,6 +28,7 @@
 	</scm>
 	<properties>
 		<java.version>21</java.version>
+		<dockerImageName>harshvardhan/bookstore-${project.artifactId}</dockerImageName>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -138,6 +139,11 @@
 						</goals>
 					</execution>
 				</executions>
+				<configuration>
+					<image>
+						<name>${dockerImageName}</name>
+					</image>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>io.github.git-commit-id</groupId>
